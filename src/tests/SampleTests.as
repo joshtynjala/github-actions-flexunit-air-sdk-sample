@@ -33,7 +33,7 @@ package tests
 		 */
 		public function testSample():void {
 			// Each test must include one or more assertions
-			Assert.assertNotNull(_sprite);
+			Assert.assertNull(_sprite);
 		}
 
 		[Test(async,timeout="2000")]
