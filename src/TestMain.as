@@ -3,10 +3,10 @@ package
 	import flash.desktop.NativeApplication;
 	import flash.display.Sprite;
 
-	import org.flexunit.internals.TraceListener;
 	import org.flexunit.runner.FlexUnitCore;
 
 	import tests.SampleTests;
+	import PrettyTraceListener;
 
 	public class TestMain extends Sprite
 	{
@@ -15,7 +15,7 @@ package
 		public function TestMain()
 		{
 			this._flexunit = new FlexUnitCore();
-			this._flexunit.addListener(new TraceListener());
+			this._flexunit.addListener(new PrettyTraceListener());
 			this._flexunit.addListener(new ExitCodeListener());
 			this._flexunit.run(
 			[
