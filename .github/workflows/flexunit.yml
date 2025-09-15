@@ -18,7 +18,7 @@ jobs:
           rm flexunit/flexunit-4.2.0-20140410-flex_4.12.0.swc
       - name: Compile AIR application
         run: |
-          amxmlc --source-path+=src --library-path+=flexunit --output bin/GithubActionsFlexUnitExample.swf src/TestMain.as
+          amxmlc -debug --source-path+=src --library-path+=flexunit --output bin/GithubActionsFlexUnitExample.swf src/TestMain.as
           cp GithubActionsFlexUnitExample-app.xml bin/GithubActionsFlexUnitExample-app.xml
       - name: Run Tests
         working-directory: bin

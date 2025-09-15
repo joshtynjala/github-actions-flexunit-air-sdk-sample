@@ -21,7 +21,7 @@ Look for the _.swc_ file with a name similar to _flexunit-x.y.z-YYYYMMDD-**flex*
 Once you've removed the file, you can add the _flexunit_ sub-directory to the library path in your project's compiler options. If you were to compile from the command line, you might compile your test project like this:
 
 ```sh
-amxmlc --source-path+=src --library-path+=apache-flex-flexunit-4.2.0-4.12.0-bin/flexunit --output bin/Tests.swf src/TestMain.as
+amxmlc -debug --source-path+=src --library-path+=apache-flex-flexunit-4.2.0-4.12.0-bin/flexunit --output bin/Tests.swf src/TestMain.as
 ```
 
 When you compile, you may see the following warning:
