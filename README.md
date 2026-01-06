@@ -34,4 +34,4 @@ Then, you can run your tests using the AIR Debug Launcher.
 
 ## Credits
 
-This sample created by [Josh Tynjala](https://twitter.com/joshtynjala), the author of [Feathers UI](https://feathersui.com/).
+This sample created by [Josh Tynjala](https://github.com/sponsors/joshtynjala), the author of [Feathers UI](https://feathersui.com/learn/as3-starling/).
